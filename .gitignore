@@ -1,0 +1,54 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 환경변수 (민감 정보)
+.env
+.env.local
+.env.*.local
+
+# 스펙 문서 (내부용)
+md file/
+
+# 사내 기밀 문서
+docs/internal/
+*.internal.md
+*.secret.md
+*.confidential.md
+SECRETS.md
+CONFIDENTIAL.md
+
+# 바이너리/미디어 (public/ 이미지 제외)
+*.docx
+*.xlsx
+*.pdf
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+!public/*.png
+!public/*.jpg
+!public/*.svg
