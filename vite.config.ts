@@ -9,7 +9,6 @@ const buildTime = new Date().toLocaleString('ko-KR', {
 }).replace(/\. /g, '-').replace('.', '') + ' KST'
 
 export default defineConfig({
-  base: '/test/',
   plugins: [react()],
   define: {
     __APP_VERSION__: JSON.stringify('v1.0.0'),
